@@ -1,8 +1,5 @@
 /* header */
-.container {
-    width: 80%;
-    margin: auto;
-}
+
 
 .banner {
     background-image: url('../resources/Banner\ Image.png');
@@ -14,7 +11,7 @@
     padding: 20px;
     opacity: 2.0;
     font-family: Merriweather;
-    
+
     text-align: center;
 
 }
@@ -115,11 +112,12 @@
     font-size: 32px;
     text-transform: capitalize;
 }
-.plce{
-  
- background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
- padding: 100px;
- margin: 120px 130px;
+
+.plce {
+
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px;
+    margin: 120px 130px;
 }
 
 .place-des {
@@ -149,91 +147,238 @@
     font-size: 20px;
     color: #FFF;
 }
-.upcoming{
+
+.upcoming {
     display: flex;
     margin: 0px 140px;
 }
-h4{
+
+h4 {
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
-h2{
+
+h2 {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-margin-top: 0px;
-margin-bottom: 20px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
-.coming-des1{
+
+.coming-des1 {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-width: 360px;
-margin-top: 0px;
-padding-right: 70px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 360px;
+    margin-top: 0px;
+    padding-right: 70px;
 }
-.pic{
+
+.pic {
     border-radius: 463px;
-border: 15px solid #F00;
-padding: 3%;
-margin-right: 118px;
+    border: 15px solid #F00;
+    padding: 3%;
+    margin-right: 118px;
 
 }
-.year{
+
+.year {
     margin-left: 0px;
 }
-h3{
+
+h3 {
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
-.coming-des2{
+
+.coming-des2 {
     width: 250px;
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
-.sale{
+
+.sale {
     text-align: center;
-   margin: 120px 140px;
+    margin: 120px 140px;
 }
-.function{
+
+.function {
     color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday-sale {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+
+.fifty {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1000px;
+    margin-top: 0px;
+}
+
+.gift-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.gift-head {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 22px;
+
+}
+
+.gift-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 800px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.portfolio {
+     margin: 0px 140px;
+}
+
+.row1 {
+    display: flex;
+
+}
+
+.row2 {
+    display: flex;
+}
+
+.col1 {
+    border: 12px solid white;
+
+    border-radius: 16px;
+
+
+}
+
+.subscribe {
+
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px 140px;
+}
+
+.subs {
+    text-align: center;
+    padding: 80px;
+
+}
+
+.subs-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.subs-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 750px;
+    margin-top: 22px;
+    padding: 0px 60px;
+}
+
+.butn {
+    display: flex;
+    margin: 48px 330px 0px;
+
+
+}
+
+.email {
+    height: 50px;
+    width: 70px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+}
+
+.btn-3 {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    height: 50px;
+    width: 80px;
+    color: white;
+}
+.contact{
+    display: flex;
+
+}
+.website{
+    display: flex;
+}
+.add-ress{
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+
+.footer{
+    background: #070211;
+   
+}
+.footer-des{
+    color: #FFF;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
-margin-bottom: 16px;
-}
-.holiday-sale{
-    color: #F00;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-margin-top: 0px;
-margin-bottom: 28px;
-}
-.fifty{
-    color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-}
-.sale-des{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px;
-width: 1000px;
-margin-top: 0px;
+line-height: 40px;
+padding: 120px 140px;
 }
